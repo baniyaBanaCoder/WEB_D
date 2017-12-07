@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label>First Name:<input type="text" name="firstname" placeholder="John" required></label>
+	<label>Last Name:<input type="text" name="secondname" placeholder="Smith"  required></label>
+	<div>
+	<label>Male:<input type="radio" name="choice1"></label>
+	<label>Female:<input type="radio" name="choice1"></label>
+	<label>Other:<input type="radio" name="choice1"></label></div>
+	<label>Email:<input type="email" name="email" placeholder="your email" required></label>
+	<label>Password:<input type="password" name="password" pattern=".{5,10}" required title="5 to 10 character" ></label>
+	<div>
+	<label>Birthday:
+			<select>
+			<option>Month</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+			<select>
+				<option>Date</option>
+				<option>Date</option>
+				<option>Date</option>
+				<option>Date</option></select>
+			<select>
+				<option>Year</option>
+				<option>Year</option>
+				<option>Year</option>
+				<option>Year</option>
+			</select>
+	</label></div>
+	<p>I agree to the terms and conditions</p><input type="checkbox" name="conditions" value="true">
+	<input type="submit">	
+</form>
+</body>
+</html>
