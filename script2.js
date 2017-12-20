@@ -1,0 +1,1 @@
+document.getElementById("first").style.color = "blue";
